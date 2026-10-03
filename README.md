@@ -1,0 +1,1 @@
+# POWER GYM — Preview v1\n\nPremium black/gold workout tables.\n\n## Included\n- Loading screen\n- Two workout tables\n- 13 exercise cards\n- English + Arabic names\n- Clickable cards\n- Video modal\n- Responsive mobile layout\n\nAdd remaining exercise images to `assets/exercises/` and MP4 videos to `assets/videos/`.\n
