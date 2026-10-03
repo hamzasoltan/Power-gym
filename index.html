@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050505">
+  <title>Power Gym - جداول التمرين</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader" class="loader" aria-label="جاري تحميل Power Gym">
+    <div class="loader-ring" aria-hidden="true"></div>
+    <div class="loader-content">
+      <img src="assets/logo.png" alt="Power Gym" class="loader-logo">
+      <div class="loader-text">LOADING...</div>
+    </div>
+  </div>
+
+  <main class="site">
+    <header class="hero">
+      <img src="assets/logo.png" alt="Power Gym" class="site-logo">
+      <p>جداول التمرين الخاصة والتفتيح</p>
+    </header>
+
+    <section class="workout-section">
+      <div class="section-title">
+        <span>01</span>
+        <div>
+          <h2>الجدول الأول</h2>
+          <p>تمارين الصدر والذراع والأرجل</p>
+        </div>
+      </div>
+      <div id="workout-one" class="exercise-grid"></div>
+    </section>
+
+    <section class="workout-section">
+      <div class="section-title">
+        <span>02</span>
+        <div>
+          <h2>الجدول الثاني</h2>
+          <p>تمارين الظهر والكتف والذراع</p>
+        </div>
+      </div>
+      <div id="workout-two" class="exercise-grid"></div>
+    </section>
+  </main>
+
+  <div id="video-modal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" aria-label="إغلاق" data-close>×</button>
+      <div class="modal-video-wrap">
+        <video id="exercise-video" controls playsinline preload="metadata">
+          <source id="video-source" src="" type="video/mp4">
+          المتصفح لا يدعم تشغيل الفيديو.
+        </video>
+        <div id="video-empty" class="video-empty">
+          <span>🎥</span>
+          <strong>الفيديو غير مضاف بعد</strong>
+          <small>ضع ملف الفيديو داخل مجلد assets/videos واربطه بالتمرين.</small>
+        </div>
+      </div>
+      <div class="modal-info">
+        <div class="eyebrow">EXERCISE</div>
+        <h3 id="modal-title">اسم التمرين</h3>
+        <p id="modal-arabic">الاسم العربي</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
