@@ -2,7 +2,7 @@ const A="assets/";
 const exercises={
 one:[
 {en:"Hammer Incline Chest Press",ar:"صدر علوي همر",image:A+"Hammer Incline Chest Press.jpg",video:"assets/video/hammer-incline-chest-press.mp4"},
-{en:"Hammer Flat Chest Press",ar:"صدر مستوي همر",image:A+"Hammer Flat Chest Press.jpg",video:"assets/video/wrist-curl.mp4"},
+{en:"Hammer Flat Chest Press",ar:"صدر مستوي همر",image:A+"Hammer Flat Chest Press.jpg",video:null},
 {en:"Triceps Pushdown (Bar)",ar:"زند امامي مسطرة صاندو",image:A+"Triceps Pushdown (Bar).jpg",video:"assets/video/triceps-pushdown-bar.mp4"},
 {en:"Dumbbell Biceps Curl",ar:"بايسيبس دنابل",image:A+"Dumbbell Biceps Curl.jpg",video:"assets/video/dumbbell-lateral-raise.mp4"},
 {en:"Lying Leg Curl",ar:"ارجل طاولة خلفي",image:A+"Lying Leg Curl.jpg",video:"assets/video/wide-grip-seated-cable-row.mp4"},
