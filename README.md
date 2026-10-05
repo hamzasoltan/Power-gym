@@ -1,1 +1,34 @@
-# POWER GYM — Preview v1\n\nPremium black/gold workout tables.\n\n## Included\n- Loading screen\n- Two workout tables\n- 13 exercise cards\n- English + Arabic names\n- Clickable cards\n- Video modal\n- Responsive mobile layout\n\nAdd remaining exercise images to `assets/exercises/` and MP4 videos to `assets/videos/`.\n
+# POWER GYM 🏋️
+
+واجهة تمارين Power Gym بتصميم أسود وذهبي، موجهة للموبايل والكمبيوتر.
+
+## المحتوى
+- شاشة Loading
+- جدولان للتمارين
+- 13 بطاقة تمرين
+- أسماء التمارين بالعربية والإنجليزية
+- بطاقات قابلة للنقر
+- نافذة فيديو Modal
+- تصميم Responsive للموبايل والكمبيوتر
+- صور التمارين داخل `assets/`
+- فيديوهات التمارين داخل `assets/video/`
+
+## هيكل المشروع
+```
+Power-gym/
+├── index.html
+├── app.js
+├── style.css
+├── README.md
+└── assets/
+    ├── logo.png
+    ├── *.jpg
+    └── video/
+        └── *.mp4
+``
+
+## ملاحظة عن الفيديوهات
+تم تنظيف أسماء ملفات الفيديو لتكون URL-safe ومتوافقة مع GitHub Pages. التمارين التي لا يتوفر لها حاليًا الفيديو الصحيح تعرض رسالة واضحة بدل ربطها بملف باسم مؤقت مثل `error-1.mp4` أو `error-2.mp4`.
+
+## النشر
+المشروع منشور عبر GitHub Pages من فرع `main`.
